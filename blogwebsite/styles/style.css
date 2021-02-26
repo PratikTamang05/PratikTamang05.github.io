@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+html,
+body {
+  background-color: aliceblue;
+  font-weight: 400;
+  color: #555;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+  font-family: "Lato", "Arial", sans-serif;
+  scroll-behavior: smooth;
+}
+/*header and page 1------------    */
+header {
+  background-image: linear-gradient(
+      rgba(39, 38, 38, 0.699),
+      rgba(32, 32, 32, 0.699)
+    ),
+    url(img/header.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.welcome {
+  top: 40%;
+  left: 10%;
+  font-size: 150%;
+  font-weight: 400;
+  position: relative;
+}
+h1 {
+  font-weight: 300;
+  color: rgb(224, 219, 219);
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 240%;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 30px;
+  font-style: "Work Sans";
+  padding-bottom: 30px;
+}
+h3 {
+  color: #fff;
+  font-size: 180%;
+  font-weight: 300;
+  padding-left: 7%;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: 400;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 120%;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 1px solid #fff;
+}
+/* -----------------------buttons-------------------------*/
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 30px;
+  border: 1px solid #e74c3c;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 200px;
+}
+.btn:hover,
+.btn:active {
+  background-color: #e74c3c;
+}
+.btn-full {
+  background-color: #e74c3c;
+}
+.newbtn {
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+/*------------ School--------------*/
+.school {
+  background-color: rgb(58, 56, 56);
+}
+.logo {
+  position: absolute;
+  left: 5%;
+  top: 110%;
+  border-radius: 100%;
+}
+.description {
+  max-width: 1150px;
+  margin: 0 auto;
+  /*margin-bottom: 5px;*/
+  padding: 10px;
+  /*padding-bottom: 5px;*/
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 185%;
+  border-top: 1px solid #fff;
+}
+/*-------------------College--------------------*/
+.college {
+  /*background-color: rgb(68, 66, 66);*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.699)),
+    url(img/1531634760phpRYNkS1.png);
+  background-size: cover;
+}
+.logo2 {
+  position: absolute;
+  left: 5%;
+
+  height: 200px;
+  width: auto;
+}
+.web {
+  width: 400px;
+  padding-top: 220px;
+  padding-left: 100px;
+}
+.fas {
+  color: white;
+  padding-right: 6px;
+}
+.para {
+  max-width: 1150px;
+  margin: 0 auto;
+  /*margin-bottom: 5px;*/
+  padding: 10px;
+  /*padding-bottom: 5px;*/
+  color: #fff;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 185%;
+}
